@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ECBSettings"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "ECBSettings settings"
   s.description  = <<-DESC
                     the module of ECBProj Settings
@@ -19,5 +19,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "AFNetworking"
+  s.dependency "SVProgressHUD"
 
 end
