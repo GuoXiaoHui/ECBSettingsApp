@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52ED11061CF8168F00E2D109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED11051CF8168F00E2D109 /* main.m */; };
+		52ED11091CF8168F00E2D109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED11081CF8168F00E2D109 /* AppDelegate.m */; };
+		52ED110C1CF8168F00E2D109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED110B1CF8168F00E2D109 /* ViewController.m */; };
+		52ED110F1CF8168F00E2D109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ED110D1CF8168F00E2D109 /* Main.storyboard */; };
+		52ED11111CF8168F00E2D109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ED11101CF8168F00E2D109 /* Assets.xcassets */; };
+		52ED11141CF8168F00E2D109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ED11121CF8168F00E2D109 /* LaunchScreen.storyboard */; };
+		52ED111F1CF8168F00E2D109 /* ECBSettingsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED111E1CF8168F00E2D109 /* ECBSettingsAppTests.m */; };
+		52ED112A1CF8169000E2D109 /* ECBSettingsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED11291CF8169000E2D109 /* ECBSettingsAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52ED111B1CF8168F00E2D109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52ED10F91CF8168F00E2D109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52ED11001CF8168F00E2D109;
+			remoteInfo = ECBSettingsApp;
+		};
+		52ED11261CF8169000E2D109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52ED10F91CF8168F00E2D109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52ED11001CF8168F00E2D109;
+			remoteInfo = ECBSettingsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52ED11011CF8168F00E2D109 /* ECBSettingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECBSettingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ED11051CF8168F00E2D109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52ED11071CF8168F00E2D109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52ED11081CF8168F00E2D109 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52ED110A1CF8168F00E2D109 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52ED110B1CF8168F00E2D109 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52ED110E1CF8168F00E2D109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52ED11101CF8168F00E2D109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52ED11131CF8168F00E2D109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52ED11151CF8168F00E2D109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ED111A1CF8168F00E2D109 /* ECBSettingsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECBSettingsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ED111E1CF8168F00E2D109 /* ECBSettingsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECBSettingsAppTests.m; sourceTree = "<group>"; };
+		52ED11201CF8168F00E2D109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ED11251CF8169000E2D109 /* ECBSettingsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECBSettingsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ED11291CF8169000E2D109 /* ECBSettingsAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECBSettingsAppUITests.m; sourceTree = "<group>"; };
+		52ED112B1CF8169000E2D109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52ED10FE1CF8168F00E2D109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED11171CF8168F00E2D109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED11221CF8169000E2D109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52ED10F81CF8168F00E2D109 = {
+			isa = PBXGroup;
+			children = (
+				52ED11031CF8168F00E2D109 /* ECBSettingsApp */,
+				52ED111D1CF8168F00E2D109 /* ECBSettingsAppTests */,
+				52ED11281CF8169000E2D109 /* ECBSettingsAppUITests */,
+				52ED11021CF8168F00E2D109 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52ED11021CF8168F00E2D109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52ED11011CF8168F00E2D109 /* ECBSettingsApp.app */,
+				52ED111A1CF8168F00E2D109 /* ECBSettingsAppTests.xctest */,
+				52ED11251CF8169000E2D109 /* ECBSettingsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52ED11031CF8168F00E2D109 /* ECBSettingsApp */ = {
+			isa = PBXGroup;
+			children = (
+				52ED11071CF8168F00E2D109 /* AppDelegate.h */,
+				52ED11081CF8168F00E2D109 /* AppDelegate.m */,
+				52ED110A1CF8168F00E2D109 /* ViewController.h */,
+				52ED110B1CF8168F00E2D109 /* ViewController.m */,
+				52ED110D1CF8168F00E2D109 /* Main.storyboard */,
+				52ED11101CF8168F00E2D109 /* Assets.xcassets */,
+				52ED11121CF8168F00E2D109 /* LaunchScreen.storyboard */,
+				52ED11151CF8168F00E2D109 /* Info.plist */,
+				52ED11041CF8168F00E2D109 /* Supporting Files */,
+			);
+			path = ECBSettingsApp;
+			sourceTree = "<group>";
+		};
+		52ED11041CF8168F00E2D109 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52ED11051CF8168F00E2D109 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52ED111D1CF8168F00E2D109 /* ECBSettingsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				52ED111E1CF8168F00E2D109 /* ECBSettingsAppTests.m */,
+				52ED11201CF8168F00E2D109 /* Info.plist */,
+			);
+			path = ECBSettingsAppTests;
+			sourceTree = "<group>";
+		};
+		52ED11281CF8169000E2D109 /* ECBSettingsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52ED11291CF8169000E2D109 /* ECBSettingsAppUITests.m */,
+				52ED112B1CF8169000E2D109 /* Info.plist */,
+			);
+			path = ECBSettingsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52ED11001CF8168F00E2D109 /* ECBSettingsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ED112E1CF8169000E2D109 /* Build configuration list for PBXNativeTarget "ECBSettingsApp" */;
+			buildPhases = (
+				52ED10FD1CF8168F00E2D109 /* Sources */,
+				52ED10FE1CF8168F00E2D109 /* Frameworks */,
+				52ED10FF1CF8168F00E2D109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECBSettingsApp;
+			productName = ECBSettingsApp;
+			productReference = 52ED11011CF8168F00E2D109 /* ECBSettingsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52ED11191CF8168F00E2D109 /* ECBSettingsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ED11311CF8169000E2D109 /* Build configuration list for PBXNativeTarget "ECBSettingsAppTests" */;
+			buildPhases = (
+				52ED11161CF8168F00E2D109 /* Sources */,
+				52ED11171CF8168F00E2D109 /* Frameworks */,
+				52ED11181CF8168F00E2D109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52ED111C1CF8168F00E2D109 /* PBXTargetDependency */,
+			);
+			name = ECBSettingsAppTests;
+			productName = ECBSettingsAppTests;
+			productReference = 52ED111A1CF8168F00E2D109 /* ECBSettingsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52ED11241CF8169000E2D109 /* ECBSettingsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ED11341CF8169000E2D109 /* Build configuration list for PBXNativeTarget "ECBSettingsAppUITests" */;
+			buildPhases = (
+				52ED11211CF8169000E2D109 /* Sources */,
+				52ED11221CF8169000E2D109 /* Frameworks */,
+				52ED11231CF8169000E2D109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52ED11271CF8169000E2D109 /* PBXTargetDependency */,
+			);
+			name = ECBSettingsAppUITests;
+			productName = ECBSettingsAppUITests;
+			productReference = 52ED11251CF8169000E2D109 /* ECBSettingsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52ED10F91CF8168F00E2D109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hangzhou AIJU Technology Co.,Ltd.";
+				TargetAttributes = {
+					52ED11001CF8168F00E2D109 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					52ED11191CF8168F00E2D109 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52ED11001CF8168F00E2D109;
+					};
+					52ED11241CF8169000E2D109 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 52ED11001CF8168F00E2D109;
+					};
+				};
+			};
+			buildConfigurationList = 52ED10FC1CF8168F00E2D109 /* Build configuration list for PBXProject "ECBSettingsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52ED10F81CF8168F00E2D109;
+			productRefGroup = 52ED11021CF8168F00E2D109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52ED11001CF8168F00E2D109 /* ECBSettingsApp */,
+				52ED11191CF8168F00E2D109 /* ECBSettingsAppTests */,
+				52ED11241CF8169000E2D109 /* ECBSettingsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52ED10FF1CF8168F00E2D109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED11141CF8168F00E2D109 /* LaunchScreen.storyboard in Resources */,
+				52ED11111CF8168F00E2D109 /* Assets.xcassets in Resources */,
+				52ED110F1CF8168F00E2D109 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED11181CF8168F00E2D109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED11231CF8169000E2D109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52ED10FD1CF8168F00E2D109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED110C1CF8168F00E2D109 /* ViewController.m in Sources */,
+				52ED11091CF8168F00E2D109 /* AppDelegate.m in Sources */,
+				52ED11061CF8168F00E2D109 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED11161CF8168F00E2D109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED111F1CF8168F00E2D109 /* ECBSettingsAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ED11211CF8169000E2D109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ED112A1CF8169000E2D109 /* ECBSettingsAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52ED111C1CF8168F00E2D109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52ED11001CF8168F00E2D109 /* ECBSettingsApp */;
+			targetProxy = 52ED111B1CF8168F00E2D109 /* PBXContainerItemProxy */;
+		};
+		52ED11271CF8169000E2D109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52ED11001CF8168F00E2D109 /* ECBSettingsApp */;
+			targetProxy = 52ED11261CF8169000E2D109 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52ED110D1CF8168F00E2D109 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ED110E1CF8168F00E2D109 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52ED11121CF8168F00E2D109 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ED11131CF8168F00E2D109 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52ED112C1CF8169000E2D109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52ED112D1CF8169000E2D109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52ED112F1CF8169000E2D109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ECBSettingsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iyenei.ECBSettingsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52ED11301CF8169000E2D109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ECBSettingsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iyenei.ECBSettingsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52ED11321CF8169000E2D109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ECBSettingsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iyenei.ECBSettingsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECBSettingsApp.app/ECBSettingsApp";
+			};
+			name = Debug;
+		};
+		52ED11331CF8169000E2D109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ECBSettingsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iyenei.ECBSettingsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ECBSettingsApp.app/ECBSettingsApp";
+			};
+			name = Release;
+		};
+		52ED11351CF8169000E2D109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ECBSettingsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iyenei.ECBSettingsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ECBSettingsApp;
+			};
+			name = Debug;
+		};
+		52ED11361CF8169000E2D109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ECBSettingsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iyenei.ECBSettingsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ECBSettingsApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52ED10FC1CF8168F00E2D109 /* Build configuration list for PBXProject "ECBSettingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED112C1CF8169000E2D109 /* Debug */,
+				52ED112D1CF8169000E2D109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52ED112E1CF8169000E2D109 /* Build configuration list for PBXNativeTarget "ECBSettingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED112F1CF8169000E2D109 /* Debug */,
+				52ED11301CF8169000E2D109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52ED11311CF8169000E2D109 /* Build configuration list for PBXNativeTarget "ECBSettingsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED11321CF8169000E2D109 /* Debug */,
+				52ED11331CF8169000E2D109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52ED11341CF8169000E2D109 /* Build configuration list for PBXNativeTarget "ECBSettingsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ED11351CF8169000E2D109 /* Debug */,
+				52ED11361CF8169000E2D109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52ED10F91CF8168F00E2D109 /* Project object */;
+}
