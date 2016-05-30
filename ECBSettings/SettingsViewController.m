@@ -24,7 +24,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
+    self.title = @"设置";
     self.resource = @[@"账号", @"评分", @"清除缓存", @"关于"];
 }
 
