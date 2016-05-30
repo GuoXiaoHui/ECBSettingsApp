@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ECBSettings"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "ECBSettings settings"
   s.description  = <<-DESC
                     the module of ECBProj Settings
@@ -9,8 +9,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "" => "" }
-  s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  #s.platform     = :ios
+  s.platform     = :ios, "5.0"
+  #s.ios.deployment_target = '7.0'
 
   s.source       = { :git => "https://github.com/GuoXiaoHui/ECBSettingsApp.git", :tag => s.version.to_s }
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
