@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ECBSettings"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "ECBSettings settings"
   s.description  = <<-DESC
                     the module of ECBProj Settings
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #s.resource = 'ECBSettings/*.xib'
   #s.resource = 'ECBSettingsApp/Assets.xcassets/*.png'
   #s.resource = 'ECBSettingsApp/Settings.storyboard'
-  s.resources = 'ECBSettings/*.xib', 'ECBSettingsApp/Assets.xcassets/*.png', 'ECBSettingsApp/Settings.storyboard'
+  s.resources = 'ECBSettings/*.xib', '../Assets.xcassets/*.png', '../Settings.storyboard'
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "AFNetworking"
   s.dependency "SVProgressHUD"
