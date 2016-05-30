@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ECBSettings"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "ECBSettings settings"
   s.description  = <<-DESC
                     the module of ECBProj Settings
@@ -14,13 +14,13 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/GuoXiaoHui/ECBSettingsApp.git", :tag => s.version.to_s }
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files  = 'ECBSettings/*.{h,m}'
+  s.source_files  = 'ECBSettingsApp/**/ECBSettings/*.{h,m}'
   s.requires_arc = true
 
   #s.resource = 'ECBSettings/*.xib'
   #s.resource = 'ECBSettingsApp/Assets.xcassets/*.png'
   #s.resource = 'ECBSettingsApp/Settings.storyboard'
-  s.resources = 'ECBSettingsApp/**/Settings.storyboard', 'ECBSettings/*.xib', 'ECBSettingsApp/Assets.xcassets'
+  s.resources = 'ECBSettingsApp/**/Settings.storyboard', 'ECBSettings/*.xib', 'ECBSettingsApp/Assets.xcassets', 'ECBSettingsApp/Resources/*'
   #s.resources = 'ECBSettingsApp/Assets.xcassets/**/*.png'
   #'ECBSettingsApp/**/Settings.storyboard'
   #'ECBSettings/*.xib',
