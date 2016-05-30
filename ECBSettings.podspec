@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ECBSettings"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "ECBSettings settings"
   s.description  = <<-DESC
                     the module of ECBProj Settings
@@ -14,9 +14,10 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/GuoXiaoHui/ECBSettingsApp.git", :tag => s.version.to_s }
   # s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files  = 'ECBSettings/*.{h,m,xib}'
+  s.source_files  = 'ECBSettings/*.{h,m}'
   s.requires_arc = true
 
+  s.resource = 'ECBSettings/*.xib'
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "AFNetworking"
   s.dependency "SVProgressHUD"
