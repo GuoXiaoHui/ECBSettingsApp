@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   #s.resource = 'ECBSettings/*.xib'
   #s.resource = 'ECBSettingsApp/Assets.xcassets/*.png'
   #s.resource = 'ECBSettingsApp/Settings.storyboard'
-  s.resources = 'ECBSettingsApp/**/Settings.storyboard', 'ECBSettings/*.xib', 'ECBSettingsApp/Assets.xcassets
+  s.resources = 'ECBSettingsApp/**/Settings.storyboard', 'ECBSettings/*.xib', 'ECBSettingsApp/Assets.xcassets'
   #s.resources = 'ECBSettingsApp/Assets.xcassets/**/*.png'
   #'ECBSettingsApp/**/Settings.storyboard'
   #'ECBSettings/*.xib',
