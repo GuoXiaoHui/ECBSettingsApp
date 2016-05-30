@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52AE31DB1CFC022E005ABFFF /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AE31D91CFC022E005ABFFF /* Settings.storyboard */; };
+		52AE31DE1CFC0851005ABFFF /* SettingCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AE31DD1CFC0851005ABFFF /* SettingCenterController.m */; };
 		52ED11061CF8168F00E2D109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED11051CF8168F00E2D109 /* main.m */; };
 		52ED11091CF8168F00E2D109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED11081CF8168F00E2D109 /* AppDelegate.m */; };
 		52ED110C1CF8168F00E2D109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED110B1CF8168F00E2D109 /* ViewController.m */; };
-		52ED110F1CF8168F00E2D109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ED110D1CF8168F00E2D109 /* Main.storyboard */; };
 		52ED11111CF8168F00E2D109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ED11101CF8168F00E2D109 /* Assets.xcassets */; };
 		52ED11141CF8168F00E2D109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ED11121CF8168F00E2D109 /* LaunchScreen.storyboard */; };
 		52ED111F1CF8168F00E2D109 /* ECBSettingsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED111E1CF8168F00E2D109 /* ECBSettingsAppTests.m */; };
@@ -37,13 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52AE31DA1CFC022E005ABFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Settings.storyboard; sourceTree = "<group>"; };
+		52AE31DC1CFC0851005ABFFF /* SettingCenterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCenterController.h; sourceTree = "<group>"; };
+		52AE31DD1CFC0851005ABFFF /* SettingCenterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingCenterController.m; sourceTree = "<group>"; };
 		52ED11011CF8168F00E2D109 /* ECBSettingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECBSettingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ED11051CF8168F00E2D109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52ED11071CF8168F00E2D109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		52ED11081CF8168F00E2D109 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		52ED110A1CF8168F00E2D109 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		52ED110B1CF8168F00E2D109 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		52ED110E1CF8168F00E2D109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52ED11101CF8168F00E2D109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52ED11131CF8168F00E2D109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52ED11151CF8168F00E2D109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,9 +114,9 @@
 				52ED11081CF8168F00E2D109 /* AppDelegate.m */,
 				52ED110A1CF8168F00E2D109 /* ViewController.h */,
 				52ED110B1CF8168F00E2D109 /* ViewController.m */,
-				52ED110D1CF8168F00E2D109 /* Main.storyboard */,
 				52ED11101CF8168F00E2D109 /* Assets.xcassets */,
 				52ED11121CF8168F00E2D109 /* LaunchScreen.storyboard */,
+				52AE31D91CFC022E005ABFFF /* Settings.storyboard */,
 				52ED11151CF8168F00E2D109 /* Info.plist */,
 				52ED11041CF8168F00E2D109 /* Supporting Files */,
 			);
@@ -152,6 +155,8 @@
 				52ED113D1CFBDE8200E2D109 /* SettingsViewController.h */,
 				52ED113E1CFBDE8200E2D109 /* SettingsViewController.m */,
 				52ED113F1CFBDE8200E2D109 /* SettingsViewController.xib */,
+				52AE31DC1CFC0851005ABFFF /* SettingCenterController.h */,
+				52AE31DD1CFC0851005ABFFF /* SettingCenterController.m */,
 			);
 			path = ECBSettings;
 			sourceTree = "<group>";
@@ -261,8 +266,8 @@
 			files = (
 				52ED11141CF8168F00E2D109 /* LaunchScreen.storyboard in Resources */,
 				52ED11111CF8168F00E2D109 /* Assets.xcassets in Resources */,
-				52ED110F1CF8168F00E2D109 /* Main.storyboard in Resources */,
 				52ED11411CFBDE8200E2D109 /* SettingsViewController.xib in Resources */,
+				52AE31DB1CFC022E005ABFFF /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +296,7 @@
 				52ED11091CF8168F00E2D109 /* AppDelegate.m in Sources */,
 				52ED11061CF8168F00E2D109 /* main.m in Sources */,
 				52ED11401CFBDE8200E2D109 /* SettingsViewController.m in Sources */,
+				52AE31DE1CFC0851005ABFFF /* SettingCenterController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,12 +332,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		52ED110D1CF8168F00E2D109 /* Main.storyboard */ = {
+		52AE31D91CFC022E005ABFFF /* Settings.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				52ED110E1CF8168F00E2D109 /* Base */,
+				52AE31DA1CFC022E005ABFFF /* Base */,
 			);
-			name = Main.storyboard;
+			name = Settings.storyboard;
 			sourceTree = "<group>";
 		};
 		52ED11121CF8168F00E2D109 /* LaunchScreen.storyboard */ = {
