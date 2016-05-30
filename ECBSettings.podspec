@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   #s.resource = 'ECBSettingsApp/Assets.xcassets/*.png'
   #s.resource = 'ECBSettingsApp/Settings.storyboard'
   s.resources = 'ECBSettingsApp/**/Settings.storyboard', 'ECBSettings/*.xib'
-  $s.resources = 'ECBSettingsApp/Assets.xcassets/**/*.png'
+  #s.resources = 'ECBSettingsApp/Assets.xcassets/**/*.png'
   #'ECBSettingsApp/**/Settings.storyboard'
   #'ECBSettings/*.xib',
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
