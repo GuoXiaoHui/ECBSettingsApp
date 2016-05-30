@@ -2,7 +2,7 @@
 //  SettingsViewController.m
 //  ECBSettingsApp
 //
-//  Created by kaxi on 16/5/27.
+//  Created by kaxi on 16/5/30.
 //  Copyright © 2016年 Hangzhou AIJU Technology Co.,Ltd. All rights reserved.
 //
 
@@ -10,19 +10,42 @@
 
 @interface SettingsViewController ()
 
+@property (nonatomic, copy) NSArray *resource;
+
 @end
 
 @implementation SettingsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    self.title = @"设置";
+    
+    // Uncomment the following line to preserve selection between presentations.
+    // self.clearsSelectionOnViewWillAppear = NO;
+    
+    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    self.resource = @[@"账号", @"评分", @"清除缓存", @"关于"];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Table view data source
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.resource.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"settingCell"];
+    
+    // Configure the cell...
+    cell.textLabel.text = self.resource[indexPath.row];
+    
+    return cell;
 }
 
 /*

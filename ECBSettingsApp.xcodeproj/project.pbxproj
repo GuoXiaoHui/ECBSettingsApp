@@ -15,8 +15,8 @@
 		52ED11141CF8168F00E2D109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ED11121CF8168F00E2D109 /* LaunchScreen.storyboard */; };
 		52ED111F1CF8168F00E2D109 /* ECBSettingsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED111E1CF8168F00E2D109 /* ECBSettingsAppTests.m */; };
 		52ED112A1CF8169000E2D109 /* ECBSettingsAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED11291CF8169000E2D109 /* ECBSettingsAppUITests.m */; };
-		52ED113B1CF816CE00E2D109 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED11391CF816CE00E2D109 /* SettingsViewController.m */; };
-		52ED113C1CF816CE00E2D109 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52ED113A1CF816CE00E2D109 /* SettingsViewController.xib */; };
+		52ED11401CFBDE8200E2D109 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ED113E1CFBDE8200E2D109 /* SettingsViewController.m */; };
+		52ED11411CFBDE8200E2D109 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52ED113F1CFBDE8200E2D109 /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		52ED11251CF8169000E2D109 /* ECBSettingsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECBSettingsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ED11291CF8169000E2D109 /* ECBSettingsAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECBSettingsAppUITests.m; sourceTree = "<group>"; };
 		52ED112B1CF8169000E2D109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52ED11381CF816CE00E2D109 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
-		52ED11391CF816CE00E2D109 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
-		52ED113A1CF816CE00E2D109 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		52ED113D1CFBDE8200E2D109 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		52ED113E1CFBDE8200E2D109 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		52ED113F1CFBDE8200E2D109 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,9 +149,9 @@
 		52ED11371CF816B000E2D109 /* ECBSettings */ = {
 			isa = PBXGroup;
 			children = (
-				52ED11381CF816CE00E2D109 /* SettingsViewController.h */,
-				52ED11391CF816CE00E2D109 /* SettingsViewController.m */,
-				52ED113A1CF816CE00E2D109 /* SettingsViewController.xib */,
+				52ED113D1CFBDE8200E2D109 /* SettingsViewController.h */,
+				52ED113E1CFBDE8200E2D109 /* SettingsViewController.m */,
+				52ED113F1CFBDE8200E2D109 /* SettingsViewController.xib */,
 			);
 			path = ECBSettings;
 			sourceTree = "<group>";
@@ -262,7 +262,7 @@
 				52ED11141CF8168F00E2D109 /* LaunchScreen.storyboard in Resources */,
 				52ED11111CF8168F00E2D109 /* Assets.xcassets in Resources */,
 				52ED110F1CF8168F00E2D109 /* Main.storyboard in Resources */,
-				52ED113C1CF816CE00E2D109 /* SettingsViewController.xib in Resources */,
+				52ED11411CFBDE8200E2D109 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +290,7 @@
 				52ED110C1CF8168F00E2D109 /* ViewController.m in Sources */,
 				52ED11091CF8168F00E2D109 /* AppDelegate.m in Sources */,
 				52ED11061CF8168F00E2D109 /* main.m in Sources */,
-				52ED113B1CF816CE00E2D109 /* SettingsViewController.m in Sources */,
+				52ED11401CFBDE8200E2D109 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +516,7 @@
 				52ED11301CF8169000E2D109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52ED11311CF8169000E2D109 /* Build configuration list for PBXNativeTarget "ECBSettingsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				52ED11331CF8169000E2D109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52ED11341CF8169000E2D109 /* Build configuration list for PBXNativeTarget "ECBSettingsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				52ED11361CF8169000E2D109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
